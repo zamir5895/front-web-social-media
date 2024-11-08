@@ -7,7 +7,7 @@ interface AlertProps {
   description: string;
 }
 
-const Alert: React.FC<AlertProps> = ({
+export const Alert: React.FC<AlertProps> = ({
   variant = 'exito',
   title,
   description

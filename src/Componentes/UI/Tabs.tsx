@@ -5,7 +5,7 @@ interface TabProps {
     onValueChange: (valor:string) => void;
     children:  React.ReactNode;    
 }
-export const Tab: React.FC<TabProps> = ({valor, onValueChange, children}) => {
+export const Tabs: React.FC<TabProps> = ({valor, onValueChange, children}) => {
     return (
         <div >
             {children}
